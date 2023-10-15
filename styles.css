@@ -1,0 +1,32 @@
+/* FONTS */
+@font-face {
+    font-family: 'AutumnWind';
+    src: url('assets/fonts/autumn_wind/Autumn_Wind.woff2') format('woff2'),
+         url('assets/fonts/autumn_wind/Autumn_Wind.woff') format('woff');
+    font-weight: bold; /* Use 'bold' for bold fonts */
+    font-style: normal; /* Use 'italic' for italic fonts */
+  }
+  
+
+.autumn-wind {
+    font-family: 'AutumnWind', 'Courier New', monospace;
+    font-size: 2.5em;
+}
+
+.courier {
+    font-family: 'Courier New', monospace;
+    font-size: 3em;
+}
+/* END_FONTS */
+
+/* color palette */ 
+.body {
+    /* height: 2100%;
+    width: 100%;
+    background-color: #1fc8db;
+    background-image: linear-gradient(140deg, #EADEDB 0%, #BC70A4 50%, #BFD641 75%);
+    color: white;
+    opacity: 0.95; */
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
